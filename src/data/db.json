@@ -1,0 +1,63 @@
+{
+  "Eventos": [
+    {
+      "id": "1",
+      "titulo": "Congresso de Tecnologia",
+      "data": "2024-11-15",
+      "local": "Centro de Convenções",
+      "descricao": "Evento anual sobre inovações tecnológicas e tendências no setor."
+    },
+    {
+      "id": "2",
+      "titulo": "Feira de Sustentabilidade",
+      "data": "2024-12-01",
+      "local": "Parque Municipal",
+      "descricao": "Exposição e debates sobre práticas sustentáveis e eco-friendly."
+    },
+    {
+      "id": "d061",
+      "titulo": "Show do Bruno Mars",
+      "data": "2024-12-08",
+      "local": "Estádio Kleber Andrade",
+      "descricao": "Show beneficente do cantor Bruno Mars"
+    }
+  ],
+  "Participantes": [
+    {
+      "id": "1",
+      "nome": "Ana Silva",
+      "email": "ana.silva@email.com",
+      "evento_id": 1
+    },
+    {
+      "id": "2",
+      "nome": "João Souza",
+      "email": "joao.souza@email.com",
+      "evento_id": 1
+    },
+    {
+      "id": "3",
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "evento_id": 2
+    },
+    {
+      "id": "18e2",
+      "nome": "Eduardo Costa",
+      "email": "ec@email.com",
+      "evento_id": "d061"
+    },
+    {
+      "id": "c7a5",
+      "nome": "Cesar Oliveira",
+      "email": "cs@email.com",
+      "evento_id": "2"
+    },
+    {
+      "id": "abeb",
+      "nome": "Jairzinho Moraes",
+      "email": "jairzinho@email.com",
+      "evento_id": "d061"
+    }
+  ]
+}
