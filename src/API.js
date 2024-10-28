@@ -5,6 +5,11 @@ export async function getEventos() {
     return response.json();
 }
 
+export async function getEvento(eventoId) {
+    const response = await fetch(`${API_URL}/Eventos/${eventoId}`);
+    return response.json();
+}
+
 export async function addEvento(evento) {
     const response = await fetch(`${API_URL}/Eventos`, {
         method: 'POST',

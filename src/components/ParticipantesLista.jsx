@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ParticipantesList({ participantes }) {
+function ParticipantesLista({ participantes }) {
     return (
         <ul className="list-group">
             {participantes.map(participante => (
@@ -12,4 +12,4 @@ function ParticipantesList({ participantes }) {
     );
 }
 
-export default ParticipantesList;
+export default ParticipantesLista;
