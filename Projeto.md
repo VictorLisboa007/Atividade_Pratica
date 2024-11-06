@@ -27,9 +27,9 @@ A estrutura do projeto é a seguinte:
 2. **Instale as dependências**
 
 npm install
-npm install -g json-server
-json-server --watch db.json --port 5000
+npm install json-server
 npm start
+npm run server
 
 3. **Acesse a aplicação**
 
